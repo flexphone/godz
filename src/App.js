@@ -12,7 +12,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
 
-          <h1 className="App-title">Welcome Thomas Lawson</h1>
+          <h1 className="App-title">Welcome Thomas Lawson jr</h1>
         </header>
         <p className="App-intro">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed
