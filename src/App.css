@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: center-align;
 }
 
 .App-logo {
@@ -8,10 +8,10 @@
 }
 
 .App-header {
-  background-color: #222;
+  background-color: rgb(214, 9, 9);
   height: 150px;
   padding: 20px;
-  color: white;
+  color: rgb(180, 115, 30);
 }
 
 .App-title {
@@ -23,6 +23,10 @@
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

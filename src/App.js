@@ -2,8 +2,11 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
-// import Header from "./Header";
 
+import "bootstrap";
+// import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/js/dist/util";
+// import "bootstrap/js/dist/dropdown";
 class App extends Component {
   render() {
     return (
@@ -12,7 +15,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
 
-          <h1 className="App-title">Welcome Thomas Lawson jr</h1>
+          <h1 className="App-title"> Thomas Lawson jr</h1>
         </header>
         <p className="App-intro">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed
@@ -24,6 +27,9 @@ class App extends Component {
           bibendum nulla sed consectetur. <code>src/App.js</code> and save to
           reload.
         </p>
+        <p>hello world</p>
+        <button />
+        <header />
       </div>
     );
   }
